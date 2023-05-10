@@ -6,19 +6,19 @@ import {TicTacToe} from "../Games/Tic-Tac-Toe/Tic-Tac-Toe.js";
 import {Chess} from "../Games/Chess/Chess.js";
 import {EightQueens} from "../Games/Eight-Queens/Eight-Queens.js";
 import {Connect4} from "../Games/Connect4/Connect4.js";
-// import { Checkers } from "../Games/Checkers/checkers.js";
+import { Checkers } from "../Games/Checkers/Checkers.js";
 if (typeof window !== "undefined") {
 
     const queryString = window.location.search;
     const urlParams = new URLSearchParams(queryString);
     const game = urlParams.get('game');
 
-    // if (game === 'Checkers') {
-    //     let checkers = new Checkers();
-    //     checkers.play();
-    //     console.log(game);
-    // } 
-     if (game === 'chess') {
+    if (game === 'Checkers') {
+        let checkers = new Checkers();
+        checkers.play();
+        console.log(game);
+    } 
+    else if (game === 'chess') {
         let chess = new Chess();
         chess.play();
         // window.location.href = "../Games/" + game + "/" + game +".html";
