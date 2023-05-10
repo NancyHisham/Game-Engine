@@ -1,0 +1,35 @@
+
+
+#game-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image:  url("https://cdn.shopify.com/s/files/1/0558/0721/3719/t/3/assets/pf-6743103f--Background-Image.png?v=1620295904");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0; /* set a lower z-index value */
+  right: 0px;
+  bottom: 0px
+
+}
+
+#board {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  z-index: 1; /* set a higher z-index value */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* set a lower z-index value */
+}

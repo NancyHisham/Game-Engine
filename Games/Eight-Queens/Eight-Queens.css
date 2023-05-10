@@ -1,0 +1,90 @@
+
+#canvas1{
+  top: 100px; /* adjust as needed */
+  left: 470px; /* adjust as needed */
+}
+ul.controls {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+  justify-content: right;
+}
+
+ul.controls li {
+  margin-right: 10px;
+}
+
+ul.controls label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+ul.controls input {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+ul.controls button {
+  font-size: 18px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+* {
+  box-sizing: border-box;
+  z-index: 1; /* set a higher z-index value */
+  overflow: hidden;
+}
+
+div#formate {
+  border-collapse: collapse;
+  margin: 0 auto;
+  color: #000000;
+  position: absolute;
+  top: 690px;
+  left: 680px;
+  font-size: large;
+  font-weight: bold;
+  z-index: 1; /* set a higher z-index value */
+}
+
+iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* set a lower z-index value */
+}
+.row-numbers {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 650px; /* adjust as needed */
+  left: 520px; /* adjust as needed */
+}
+
+.row-numbers li {
+  width: 55px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  /* background-color: #444;
+  border: 1px solid #444; */
+  border-radius: 10px;
+  margin-right: 0px;
+}
